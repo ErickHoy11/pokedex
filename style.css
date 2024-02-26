@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+h1{
+    font-size: 60px;
+    color: yellow;
+    -webkit-text-stroke: 1px blue; /* For Webkit based browsers like Chrome, Safari */
+    text-decoration: underline;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+#search{
+    background-color: lightgray;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+}
+
+#search *{
+    color: black;
+}
+
+#search button{
+    width: 100px;
+    justify-content: center;
+}
+
+
+
+span{
+    text-decoration: underline;
+}
+span:hover
+{
+    cursor: pointer;
+}
+
