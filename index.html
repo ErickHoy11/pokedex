@@ -12,41 +12,39 @@
 </head>
 <body>
 
+    <!--header-->
     <header>
         <h1>Small Pokedex</h1>
     </header>
 
+    <!--main-->
     <main>
-        <section id="search">
-            <h2>Search for a Pokemon</h2>
-            <input type="text">
-            <button onclick="search()">Search</button>
-            <br>
+        <!--search-->
+        <h2>Search for a Pokemon</h2>
+        <input type="text">
+        <button onclick="search()">Search</button>
+        <br>
 
-            <section id="results">
-                <h2></h5>
-                <img src="" alt="Pokemon Image" style="visibility: hidden;">
-                <p></p>
-            </section>
-            <br>
-
-            <h2>Don't know any pokemon? Try my favorites:</h3>
-            <div id="suggestions">
-                <span>Machamp</span>
-                <span>Mewtwo</span>
-                <span>Blaziken</span>
-                <span>Dialga</span>
-                <span>Pikachu</span>
-            </div>
-            
+        <!--pokemon display-->
+        <section id="results">
+            <h2></h5>
+            <img src="" alt="Pokemon Image" style="visibility: hidden;">
+            <p></p>
         </section>
-        
+        <br>
+
+        <!--suggestions-->
+        <h2>Don't know any pokemon? Try my favorites:</h3>
+        <div id="suggestions">
+            <span>Machamp</span>
+            <span>Mewtwo</span>
+            <span>Blaziken</span>
+            <span>Dialga</span>
+            <span>Pikachu</span>
+        </div>        
     </main>
 
-    <footer>
-    </footer>
-
+    <!--script-->
     <script src="index.js"></script>
-
 </body>
 </html>
